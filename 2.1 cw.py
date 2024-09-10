@@ -1,0 +1,6 @@
+print('Mohit')
+print('M \nO \nH \nI \nT')
+print('September 10th 2024')
+print('Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday')
+print('1\t2\t3\t4\t5\t6\t7\t8')
+print('HOW MANY, HOW MUCH\n\nHow many slams in an old screen door?\n\n\tDepends how loud you shut it.\n\n\nHow many slices in a bread?\n\n\tDepends how thin you cut it.\n\n\nHow much good inside a day?\n\n\tDepends how good you live em.\n\n\nHow much love inside a friend?\n\n\tDepends how much you give em.')
