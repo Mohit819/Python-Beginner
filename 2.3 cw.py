@@ -28,9 +28,9 @@ operator = input("Which operation(+,-,*,/)")
 
 if operator == "+":
     print (y+z)
-elif operator ==- "-":
+elif operator == "-":
     print(y-z)
-elif operator ==-"*":
+elif operator =="*":
     print(y*z)
 else:
     print(y/z)
