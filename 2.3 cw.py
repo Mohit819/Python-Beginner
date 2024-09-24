@@ -22,16 +22,44 @@
 
 ##CALCULATOR##
 
-y = int(input('Enter a number'))
-z = int(input('Enter a number'))
-operator = input("Which operation(+,-,*,/)")
+##y = int(input('Enter a number'))
+##z = int(input('Enter a number'))
+##operator0 = input("Which operation(+,-,*,/)")
+##
+##if operator0 == "+":
+##    print (y+z)
+##elif operator0 == "-":
+##    print(y-z)
+##elif operator0 =="*":
+##    print(y*z)
+##else:
+##    print(y/z)
 
-if operator == "+":
-    print (y+z)
-elif operator == "-":
-    print(y-z)
-elif operator =="*":
-    print(y*z)
-else:
-    print(y/z)
-    
+##a=(10)
+##b=(3)
+##c=(1)
+##x=(4)
+##y=(2)
+##print(a - b * c + x / y)
+
+##x = str(input("What is your favourite movie?"))
+##y = float(input("What is your rating?"))
+##print(x)
+##print(y)
+
+##x=int(input("number"))
+##y=int(input("number"))
+##z=int(input("number"))
+##print(x + y + z)
+
+##x=int(input("age"))
+##y=int(input("current year"))
+##print(y - x)
+
+##x=(10)
+##x =(x + 0.1)
+##print(x)
+##x=(x - 0.1)
+##print(x)
+
+x = float(input("Enter a decimal number:"))
