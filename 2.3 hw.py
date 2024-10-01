@@ -11,5 +11,10 @@
 ##a = float(input("Enter a decimal number"))
 ##b = float(input("Enter a decimal number"))
 ##c = float(input("Enter a decimal number"))
+##x = int(a)
+##y = int(b)
+##z = int(c)
+##print(x)
+##print(y)
+##print(z)
 print(100*"hi")
-
