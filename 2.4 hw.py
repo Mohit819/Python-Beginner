@@ -7,6 +7,6 @@
 ##c = input("Enter a decimal number")
 ##print(min(a,b,c))
 ##print(len("You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose."))
-##print(sum(3.45,-99.45,1004.2,32,-1.234,67.555))
+##print(sum((3.45,-99.45,1004.2,32,-1.234,67.555)))
 a = (input("Write the longest number you can think of"))
 print(len(a))
