@@ -1,3 +1,4 @@
+
 address = input("where are you shipping to?")
 days = int(input("when do you need it shipped?"))
 base_charge = (0)
@@ -24,8 +25,11 @@ gift_wrap_charge = (0)
 input("do you want gift wrap")
 if "yes":
     gift_wrap_charge = 2.5
+else:
+    gift_wrap_charge = 0
 total = (base_charge + total_weight_charge + gift_wrap_charge)
 print (base_charge)
 print(total_weight_charge)
 print(gift_wrap_charge)
 print(total)
+
