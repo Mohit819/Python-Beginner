@@ -12,14 +12,15 @@
 ##print(y)
 
 ##z=0
-##i = input("ENter a sentence")
+##i = input("Enter a sentence")
 ##for w in i:
-##    if w !="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM":
+##    if w ==" ":
 ##        z = z+1
-##print(z)
+##print(z + 1)
 
 ##for i in range(5,100,5):
 ##    print(i)
 
 #iterator variables are variables that change value every time
 # the range fuction takes 1 2 or 3 inputs and gives an output
+
