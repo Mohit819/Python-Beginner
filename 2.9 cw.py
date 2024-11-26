@@ -1,3 +1,4 @@
+
 ##name = input("What is your name?")
 ##letter = input("What is your favourite letter?")
 ##letter_count = 0
@@ -117,7 +118,20 @@
 ##while guess != number_of_marbles:
 ##    print("Incorrect guess! Try again!")
 ##    guess = int(input("Guess the number of marbles in the jar: "))
+
 import random
-lst=["rock,paper,scissors"]
+lst=["rock","paper","scissors"]
 p1=random.choice(lst)
 p2=random.choice(lst)
+print("player 1 chose",p1)
+print("player 2 chose",p2)
+i = input("do you want to keep playing")
+while i == "yes":
+    if p1 == "rock" p2 == "scissors":
+        print("player 1 won")
+    lst=["rock","paper","scissors"]
+    p1=random.choice(lst)
+    p2=random.choice(lst)
+    print("player 1 chose",p1)
+    print("player 2 chose",p2)
+    i = input("do you want to keep playing")
