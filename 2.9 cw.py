@@ -1,4 +1,5 @@
 
+
 ##name = input("What is your name?")
 ##letter = input("What is your favourite letter?")
 ##letter_count = 0
@@ -125,13 +126,47 @@ p1=random.choice(lst)
 p2=random.choice(lst)
 print("player 1 chose",p1)
 print("player 2 chose",p2)
+if p1 == "rock" and p2 == "scissors":
+    print("Player 1 won")
+elif p1 == "scissors" and p2 == "paper":
+    print("Player 1 won")
+elif p1 == "paper" and p2 == "rock":
+    print("Player 1 won")
+elif p1 == "scissors" and p2 == "rock":
+    print("Player 2 won")
+elif p1 == "rock" and p2 == "paper":
+    print("Player 2 won")
+elif p1 == "paper" and p2 == "scissors":
+    print("Player 2 won")
+elif p1 == "rock" and p2 == "rock":
+    print("It's a tie")
+elif p1 == "scissors" and p2 == "scissors":
+    print("It's a tie")
+elif p1 == "paper" and p2 == "paper":
+    print("It's a tie")
 i = input("do you want to keep playing")
 while i == "yes":
-    if p1 == "rock" p2 == "scissors":
-        print("player 1 won")
     lst=["rock","paper","scissors"]
     p1=random.choice(lst)
     p2=random.choice(lst)
     print("player 1 chose",p1)
     print("player 2 chose",p2)
+    if p1 == "rock" and p2 == "scissors":
+        print("Player 1 won")
+    elif p1 == "scissors" and p2 == "paper":
+        print("Player 1 won")
+    elif p1 == "paper" and p2 == "rock":
+        print("Player 1 won")
+    elif p1 == "scissors" and p2 == "rock":
+        print("Player 2 won")
+    elif p1 == "rock" and p2 == "paper":
+        print("Player 2 won")
+    elif p1 == "paper" and p2 == "scissors":
+        print("Player 2 won")
+    elif p1 == "rock" and p2 == "rock":
+        print("It's a tie")
+    elif p1 == "scissors" and p2 == "scissors":
+        print("It's a tie")
+    elif p1 == "paper" and p2 == "paper":
+        print("It's a tie")
     i = input("do you want to keep playing")
